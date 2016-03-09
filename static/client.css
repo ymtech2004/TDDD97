@@ -1,0 +1,208 @@
+#maincontainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 604px;
+	height: 400px;
+	margin-top: 100px;
+}
+
+#logo {
+	width: 340px;
+	height: 400px;
+	float: left;
+	margin-right: 10px;
+	border: 1px solid;
+}
+
+#login {
+	width: 250px;
+	float: right;
+	padding-top: 13px;
+	margin-bottom: 10px;
+	border: 1px solid;
+	background: white;
+}
+
+#signup {
+	float: right;
+	width: 250px;
+	border: 1px solid;
+	background: white;
+}
+
+#content {
+	background: white;
+    border:1px solid gray;
+    border-top: none;
+    width: 100%;
+    height: 100%;
+}
+
+.personal_info {
+	float: right;
+	width: 45%;
+	height: 350px;
+	margin-right: 20px;
+	border: 1px solid;
+	background: white;
+}
+
+.personal_message_wall {
+	float: left;
+	width: 45%;
+	height: 350px;
+	margin-left: 20px;
+	border: 1px solid;
+	background: white;
+}
+
+.row {
+	width: 100%;
+	margin-top: 10px;
+	margin-right:0;
+    margin-left:0;
+}
+
+.warning {
+	color: red;
+	width: 80%;
+	font-size: 8pt;
+}
+
+/*tabs*/
+#tabs ul
+{
+ /*   font: normal 14px arial, sans, sans-serif;
+    -list-style-type: none;*/
+    border-bottom: 1px solid gray;
+    margin: 0;
+    padding-left:0;
+    padding-right:0;
+    padding-bottom: 26px;
+}
+
+#tabs ul li 
+{
+    display: inline;
+    float: left;
+    height: 24px;
+    min-width:80px;
+    text-align:center;
+    padding:0;
+    margin: 1px 0px 0px 0px;
+    border: 1px solid gray;
+}
+
+#tabs ul li.selected 
+{
+    border-bottom: 1px solid #fff;
+    background-color: #fff;
+}
+
+#tabs ul li a 
+{
+    float: left;
+    color: #666;
+    text-decoration: none;
+    padding: 4px;
+    text-align:center;
+    background-color:#eee;
+    min-width:80px;
+    border-bottom: 1px solid gray;
+}
+
+#tabs ul li a.selected
+{
+    color: #000;
+    font-weight:bold;
+    background-color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+#tabs ul li a:hover
+{
+    color: #000;
+    font-weight:bold;
+    background-color: #fff;
+}
+
+#maincontainer input {
+	width: 55%;
+	float: right;
+}
+
+select {
+	width: 58%;
+	float: right;
+}
+
+#maincontainer button {
+	float: right;
+}
+
+
+
+#account_page_form {
+	width: 55%;
+	overflow: hidden;
+}
+
+
+
+.message_wall {
+	width: 95%;
+	height: 65%;
+	margin-top: 5px;
+	margin-left: 5px;
+	overflow: scroll;
+	border: 1px solid gray;
+}
+
+.personal_message_wall textarea {
+	width: 95%;
+	margin-left: 5px;
+
+}
+
+.personal_title {
+	width: 100%;
+	height: 45px;
+	overflow: hidden;
+}
+.personal_title input{
+	width: 85%;
+	float: left;
+	margin-left: 10px;
+}
+
+.account_live_data {
+	  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	  margin: auto;
+	  padding-top: 40px;
+	  position: relative;
+	  width: 380px;
+	  background-color: yellow;
+}
+
+	.bullet { font: 10px sans-serif; }
+	.bullet .marker { stroke: #000; stroke-width: 2px; }
+	.bullet .tick line { stroke: #666; stroke-width: .5px; }
+	.bullet .range.s0 { fill: #eee; }
+	.bullet .range.s1 { fill: #ddd; }
+	.bullet .range.s2 { fill: #ccc; }
+	.bullet .measure.s0 { fill: lightsteelblue; }
+	.bullet .measure.s1 { fill: steelblue; }
+	.bullet .title { font-size: 14px; font-weight: bold; }
+	.bullet .subtitle { fill: #999; }
+
+h2 {
+	text-align: center;
+}
+
+h3 {
+	text-align: center;	
+}
+
+body {
+	background: #3399FF;
+}
